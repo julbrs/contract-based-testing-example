@@ -1,0 +1,22 @@
+{
+  "name": "cbt-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Julien Bras",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^9.16.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "get-port": "^5.1.1",
+    "mocha": "^9.1.1"
+  }
+}
