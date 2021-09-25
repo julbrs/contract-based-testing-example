@@ -14,6 +14,10 @@ yarn test
 
 The provider part, you can run the tests by typing:
 
+```
+yarn test
+```
+
 # Author
 
 Julien Bras
